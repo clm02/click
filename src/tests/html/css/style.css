@@ -1,0 +1,58 @@
+body{
+	margin:0px;
+}
+.ca_banner{
+	position:relative;
+	overflow:hidden;
+	background:#f0f0f0;
+	width:300px;
+	height:250px;
+}
+.ca_slide{
+	width:100%;
+	height:100%;
+	position:relative;
+	overflow:hidden;
+}
+.ca_zone{
+	position:absolute;
+	width:100%;
+}
+.ca_wrap{
+	position:relative;
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;
+}
+.ca_wrap span.ca_shown{
+	display:inline !important;
+}
+/* Custom styles of banner1 */
+.ca_bg1{
+	background:#000 no-repeat top left;
+}
+.ca_zone1{
+	/*top:0px;
+	left:0px;*/
+}
+.ca_wrap1{
+	width:300px;
+	height:250px;
+}
+.ca_zone2{
+	top:205px;
+	left:4px;
+}
+.ca_wrap2{
+	/*
+	width:300px;
+	height:250px;*/
+}
+.ca_zone3{
+	top:14px;
+	left:9px;
+}
+.ca_wrap3{
+	/*width:378px;
+	height:31px;*/
+}

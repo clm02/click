@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<banner>
+	<background>
+		<color>#000000</color>
+	</background>
+	<size>
+		<unit>px</unit>
+		<width>300</width>
+		<height>250</height>
+	</size>
+	<steps>7</steps>
+	<speed>3000</speed>
+	<zones>
+		<zone id="0" top="center" left="center">
+			<step id="0">
+				<img src="images/intro1.png"/>
+			</step>
+			<step id="1">
+				<img src="images/intro2.png"/>
+				<effect>slideOutRight-slideInRight</effect>
+			</step>
+			<step id="2">
+				<img src="images/foot.jpg"/>
+				<effect>slideOutTop-slideInBottom</effect>
+			</step>
+			<step id="3">
+				<img src="images/interstellar.jpg"/>
+				<effect>slideOutTop-slideInBottom</effect>
+			</step>
+			<step id="4">
+				<img src="images/versailles.jpg"/>
+				<effect>slideOutTop-slideInBottom</effect>
+			</step>
+			<step id="5">
+				<img src="images/acquitted.jpg"/>
+				<effect>slideOutTop-slideInBottom</effect>
+			</step>
+			<step id="5">
+				<img src="images/outro.png"/>
+				<effect>slideOutTop-slideInBottom</effect>
+			</step>
+		</zone>
+		<zone id="1" top="205px" left="4px">
+			<step id="0"></step>
+			<step id="1">
+				<img src="images/path18.png"/>
+			</step>
+		</zone>
+		<zone id="2" top="14px" left="9px">
+			<step id="0">
+				<img src="images/LCC_logo.png"/>
+			</step>
+		</zone>
+	</zones>
+</banner>
